@@ -1,0 +1,305 @@
+
+<html><head><base href=".">
+    <title>Squad Food Lovers - Restaurante de Comida Rápida</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-bar">
+                <a href="index.html" class="logo-container">
+                    <img src="foodlogo.png" alt="Squad Food Lovers Logo" class="logo">
+                </a>
+                <a href="https://wa.me/50578703584" class="order-now-button" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                    </svg>
+                    Ordenar Ahora
+                </a>
+            </div>
+        </header>
+    
+        <nav class="nav">
+            <a href="#all">Todo</a>
+            <a href="#burger-lovers">Burger Lovers</a>
+            <a href="#panini-lovers">Panini Lovers</a>
+            <a href="#pizza-lovers">Pizza Lovers</a>
+            <a href="#kids-menu">Kids Menu</a>
+            <a href="#desserts">Postres</a>
+            <a href="#drinks">Bebidas</a>
+        </nav>
+    
+        <div class="search-container">
+            <div class="search-wrapper">
+                <input type="text" class="search-input" placeholder="Buscar platillos..." id="searchInput">
+                <select class="filter-select" id="categoryFilter">
+                    <option value="all">Todas las categorías</option>
+                    <option value="burger-lovers">Burger Lovers</option>
+                    <option value="panini-lovers">Panini Lovers</option>
+                    <option value="pizza-lovers">Pizza Lovers</option>
+                    <option value="kids-menu">Kids Menu</option>
+                    <option value="desserts">Postres</option>
+                    <option value="drinks">Bebidas</option>
+                </select>
+            </div>
+        </div>
+    
+        <main>
+            <section class="menu-section" id="burger-lovers">
+                <h2 class="section-title">Burger Lovers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/easylovers.webp" alt="Easy Lovers">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">EASY LOVERS</h3>
+                            <p class="menu-item-price">C$130</p>
+                            <p class="menu-item-description">1/4 lb de carne molida casera, queso amarillo, salsas de la casa, lechuga, tomate, cebolla, pepinillo y papas fritas.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/jumbolovers.webp" alt="Jumbo Lovers">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">JUMBO LOVERS</h3>
+                            <p class="menu-item-price">C$280</p>
+                            <p class="menu-item-description">Triple porción de carne molida casera, triple bacon, triple queso amarillo, salsas de la casa, lechuga, tomate, cebolla, pepinillo y triple porción de papas fritas.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/baconlovers.webp" alt="Bacon Lovers">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">BACON LOVERS</h3>
+                            <p class="menu-item-price">C$150</p>
+                            <p class="menu-item-description">1/4 lb de carne molida casera, queso amarillo, bacon, salsas de la casa, lechuga, tomate, cebolla, pepinillo y papas fritas.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/chickenloverparmesan.webp" alt="Chicken Lover Parmesan">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">CHICKEN LOVER PARMESAN</h3>
+                            <p class="menu-item-price">C$150</p>
+                            <p class="menu-item-description">Filete de pollo a la parmesana con mozzarella gratinada, lechuga, tomate, cebolla, pepinillo, salsa de la casa con cheddar y papas fritas.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="menu-section" id="panini-lovers">
+                <h2 class="section-title">Panini Lovers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/paninichicken.webp" alt="Panini Chicken">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">PANINI CHICKEN</h3>
+                            <p class="menu-item-price">C$250</p>
+                            <p class="menu-item-description">Salsa pesto, aderezo césar, pollo, cebolla morada y mozzarella. (Acompañado con una porción de ensalada y papas fritas)</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/paniniturkey.webp" alt="Panini Turkey">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">PANINI TURKEY</h3>
+                            <p class="menu-item-price">C$250</p>
+                            <p class="menu-item-description">Salsa marinara, jamón, salami, pepperoni, pepinillo y mozzarella. (Acompañado con una porción de ensalada y papas fritas)</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/paninivegetal.webp" alt="Panini Vegetal">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">PANINI VEGETAL</h3>
+                            <p class="menu-item-price">C$250</p>
+                            <p class="menu-item-description">Salsa marinara, hongos, espinaca, cebolla, tomate, chiltoma y aceitunas negras. (Acompañado con una porción de ensalada y papas fritas)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="menu-section" id="pizza-lovers">
+                <h2 class="section-title">Pizza Lovers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/pizzajamon.webp" alt="Jamon">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">JAMÓN</h3>
+                            <p class="menu-item-price">MEDIANA C$250 | GRANDE C$420</p>
+                            <p class="menu-item-description">Salsa pizza, mozzarella y jamón.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/pizzapepperoni.webp" alt="Pepperoni">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">PEPPERONI</h3>
+                            <p class="menu-item-price">MEDIANA C$250 | GRANDE C$420</p>
+                            <p class="menu-item-description">Salsa pizza, mozzarella y pepperoni.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/pizzafourcheese.webp" alt="Four Cheese">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">FOUR CHEESE</h3>
+                            <p class="menu-item-price">MEDIANA C$300 | GRANDE C$520</p>
+                            <p class="menu-item-description">Salsa pizza, mozzarella, parmesano, queso ricotta y blue cheese.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="menu-section" id="kids-menu">
+                <h2 class="section-title">Kids Menu</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/burgerjunior.webp" alt="Burger Junior">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">BURGER JUNIOR</h3>
+                            <p class="menu-item-price">C$100</p>
+                            <p class="menu-item-description">Carne molida, queso amarillo, salsas, pepinillo y papitas fritas.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/juniorpizza.webp" alt="Junior Pizza">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">JUNIOR PIZZA</h3>
+                            <p class="menu-item-price">C$100</p>
+                            <p class="menu-item-description">Jamón, pepperoni o queso.</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/chickenfingers.webp" alt="Chicken Fingers">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">CHICKEN FINGERS</h3>
+                            <p class="menu-item-price">C$100</p>
+                            <p class="menu-item-description">Deditos de pollo empanizados y papitas fritas.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="menu-section" id="desserts">
+                <h2 class="section-title">Postres</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/tresleches.webp" alt="Tres Leches">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">TRES LECHES</h3>
+                            <p class="menu-item-price">C$85</p>
+                            <p class="menu-item-description">Porción individual</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/sdrufolo.webp" alt="Sdrufolo">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">SDRUFOLO</h3>
+                            <p class="menu-item-price">C$130</p>
+                            <p class="menu-item-description">Con Nutella, sirope de fresa o de chocolate y queso ricotta.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="menu-section" id="drinks">
+                <h2 class="section-title">Bebidas</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/refrescos.webp" alt="Refrescos">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">REFRESCOS</h3>
+                            <p class="menu-item-description">Coca-Cola (C$30), Hi-C (C$30)</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/bebidasespeciales.webp" alt="Bebidas Especiales">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">BEBIDAS ESPECIALES</h3>
+                            <p class="menu-item-description">Té de Limón (C$40), Cacao (C$40)</p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="galeria/malteadas.webp" alt="Malteadas">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3 class="menu-item-title">MALTEADAS</h3>
+                            <p class="menu-item-description">OREO (C$70), Fresa con Banano (C$100)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <div class="modal-overlay" id="dishModal">
+            <div class="modal">
+                <button class="modal-close">&times;</button>
+                <div class="modal-image">
+                    <!-- Image will be dynamically inserted -->
+                </div>
+                <h3 class="modal-title"></h3>
+                <p class="modal-price"></p>
+                <p class="modal-description"></p>
+                <div class="modal-details">
+                    <h4>Ingredientes:</h4>
+                    <ul class="modal-ingredients"></ul>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://facebook.com/squadfoodlovers" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm3 8h-1.35c-.538 0-.65.221-.65.778V10h2l-.209 2H13v7h-3v-7H8v-2h2V7.692C10 5.923 10.931 5 13.029 5H15v3z"/>
+                        </svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://instagram.com/squadfoodlovers" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://wa.me/50578703584" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+                        </svg>
+                        <span>Ordena Ahora: +505 7870 3584</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    
+    <script src="script.js"></script>  
+    </body>
+    </html>
